@@ -1,0 +1,35 @@
+----------------8<-------------[ START TEST 
+        💻 TEST
+./a.out "hello World" "hello world"         🔎 YOUR OUTPUT:
+../../rendu/ft_strcmp/ft_strcmp.c:3:2: error: use of undeclared identifier 'size_t'; did you mean 'sizeof'?
+        size_t i;
+        ^~~~~~
+        sizeof
+../../rendu/ft_strcmp/ft_strcmp.c:3:9: error: use of undeclared identifier 'i'
+        size_t i;
+               ^
+../../rendu/ft_strcmp/ft_strcmp.c:5:2: error: use of undeclared identifier 'i'
+        i  = 0;
+        ^
+../../rendu/ft_strcmp/ft_strcmp.c:6:12: error: use of undeclared identifier 'i'
+        while (s1[i] != '\0')
+                  ^
+../../rendu/ft_strcmp/ft_strcmp.c:8:10: error: use of undeclared identifier 'i'
+                if (s1[i] != s2[i])
+                       ^
+../../rendu/ft_strcmp/ft_strcmp.c:8:19: error: use of undeclared identifier 'i'
+                if (s1[i] != s2[i])
+                                ^
+../../rendu/ft_strcmp/ft_strcmp.c:9:15: error: use of undeclared identifier 'i'
+                        return (s1[i] - s2[i]);
+                                   ^
+../../rendu/ft_strcmp/ft_strcmp.c:9:23: error: use of undeclared identifier 'i'
+                        return (s1[i] - s2[i]);
+                                           ^
+../../rendu/ft_strcmp/ft_strcmp.c:10:3: error: use of undeclared identifier 'i'
+                i++;
+                ^
+9 errors generated.
+
+        ❌ COMPILATION ERROR
+----------------8<------------- END TEST ]
