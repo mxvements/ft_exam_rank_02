@@ -1,0 +1,8 @@
+----------------8<-------------[ START TEST 
+        💻 TEST
+./a.out "Manger pour vivre " 
+        🔎 YOUR OUTPUT:
+$
+        🗝 EXPECTED OUTPUT:
+vivre$
+----------------8<------------- END TEST ]

@@ -1,0 +1,19 @@
+----------------8<-------------[ START TEST 
+        💻 TEST
+./a.out         🔎 YOUR OUTPUT:
+../../rendu/sort_list/sort_list.c:39:9: error: member reference type 't_list' (aka 'struct s_list') is not a pointer; did you mean to use '.'?
+        a = lst->data;
+            ~~~^~
+               .
+../../rendu/sort_list/sort_list.c:40:12: error: member reference type 't_list' (aka 'struct s_list') is not a pointer; did you mean to use '.'?
+        next = lst->next;
+               ~~~^~
+                  .
+../../rendu/sort_list/sort_list.c:48:9: error: returning 't_list' (aka 'struct s_list') from a function with incompatible result type 't_list *' (aka 'struct s_list *'); take the address with &
+        return (lst);
+               ^~~~~
+               &
+3 errors generated.
+
+        ❌ COMPILATION ERROR
+----------------8<------------- END TEST ]
